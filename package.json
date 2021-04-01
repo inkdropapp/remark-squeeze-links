@@ -1,0 +1,47 @@
+{
+  "name": "remark-squeeze-links",
+  "version": "0.1.0",
+  "description": "remark plugin to remove empty (or whitespace only) links",
+  "main": "index.js",
+  "repository": "inkdropapp/remark-squeeze-links",
+  "bugs": "https://github.com/inkdropapp/remark-squeeze-links/issues",
+  "scripts": {
+    "format": "prettier . -w --loglevel warn",
+    "test": "nyc --reporter lcov tape test.js"
+  },
+  "keywords": [
+    "remark",
+    "micromark",
+    "mdast",
+    "ast"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Takuya Matsuyama <hi@craftz.dog>",
+  "license": "MIT",
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "prettier": "^2.2.1",
+    "remark": "^13.0.0",
+    "tape": "^5.2.2",
+    "unist-builder": "^2.0.3"
+  },
+  "dependencies": {
+    "mdast-squeeze-links": "^0.1.0"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "functions": 100,
+    "branches": 100
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "semi": false,
+    "trailingComma": "none"
+  }
+}
