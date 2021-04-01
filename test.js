@@ -12,7 +12,8 @@ test('remark-squeeze-links', function (t) {
       .runSync(
         u('root', [
           u('link', {url: '#about'}, [u('text', 'About')]),
-          u('link', {url: '#about'}, [u('text', ' ')])
+          u('link', {url: '#about'}, [u('text', ' ')]),
+          u('link', {url: '#about'}, [])
         ])
       ),
     u('root', [u('link', {url: '#about'}, [u('text', 'About')])])
