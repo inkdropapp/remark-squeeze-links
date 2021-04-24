@@ -1,6 +1,6 @@
 {
   "name": "remark-squeeze-links",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "remark plugin to remove empty (or whitespace only) links",
   "main": "index.js",
   "repository": "inkdropapp/remark-squeeze-links",
