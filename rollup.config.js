@@ -44,7 +44,10 @@ export default [
         plugins: [terser()]
       }
     ],
-    external: [],
+    external: [
+      ...Object.keys(packageJson.dependencies),
+      ...Object.keys(packageJson.peerDependencies || [])
+    ],
     plugins: [resolve(), typescript(CONFIG_TYPESCRIPT)]
   }
 ]
