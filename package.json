@@ -47,6 +47,6 @@
     "unist-builder": "^3.0.1"
   },
   "dependencies": {
-    "mdast-squeeze-links": "^1.0.4"
+    "mdast-squeeze-links": "^1.0.6"
   }
 }
