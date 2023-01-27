@@ -1,6 +1,6 @@
 {
   "name": "remark-squeeze-links",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "remark plugin to remove empty (or whitespace only) links",
   "type": "module",
   "main": "lib/index.esm.js",
