@@ -2,10 +2,10 @@
   "name": "remark-squeeze-links",
   "version": "1.0.1",
   "description": "remark plugin to remove empty (or whitespace only) links",
-  "main": "lib/index.js",
+  "type": "module",
+  "main": "lib/index.esm.js",
   "types": "lib/index.d.ts",
   "unpkg": "lib/index.umd.js",
-  "module": "lib/index.esm.js",
   "repository": "inkdropapp/remark-squeeze-links",
   "bugs": "https://github.com/inkdropapp/remark-squeeze-links/issues",
   "scripts": {
@@ -47,6 +47,6 @@
     "unist-builder": "^3.0.1"
   },
   "dependencies": {
-    "mdast-squeeze-links": "^1.0.6"
+    "mdast-squeeze-links": "^1.0.9"
   }
 }
