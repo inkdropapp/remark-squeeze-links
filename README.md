@@ -13,8 +13,8 @@ npm install remark-squeeze-links
 ## Use
 
 ```js
-var remark = require('remark')
-var squeezeLinks = require('remark-squeeze-links')
+import { remark } from 'remark'
+import { squeezeLinks } from 'remark-squeeze-links'
 
 remark().use(squeezeLinks).processSync('[](#about)\ntext').toString()
 // => "text\n"
